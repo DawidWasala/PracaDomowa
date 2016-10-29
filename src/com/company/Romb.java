@@ -45,6 +45,7 @@ public class Romb {
     }
 
     public double getSurface() {
+
         return surface;
     }
 }
