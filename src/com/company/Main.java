@@ -82,6 +82,8 @@ public class Main {
                 System.out.println("Wpisz wysokosc");
                 double h = doubleScanner.nextDouble();
                 double wynik = ((a + b) * h) / 2;
+                wyniki.add(wynik);
+                dzialanie.add("wynik " + i + " - (" + figure + "):");
             } else if (figure.equals("stop")) {
                 break;
             }
