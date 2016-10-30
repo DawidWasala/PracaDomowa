@@ -18,6 +18,7 @@ public class Prostokat {
         surface = sideA*sideB;
     }
     public double getSurface(){
+        setSurface();
         return surface;
     }
 }
