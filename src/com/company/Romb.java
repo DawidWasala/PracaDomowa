@@ -2,7 +2,9 @@ package com.company;
 
 import java.util.InputMismatchException;
 
-
+/**
+ * Created by Dawid on 2016-10-29.
+ */
 public class Romb {
 
     private double side;
