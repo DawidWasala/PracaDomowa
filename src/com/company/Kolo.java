@@ -1,8 +1,6 @@
 package com.company;
 
-/**
- * Created by Dawid on 2016-10-29.
- */
+
 public class Kolo {
 
     private double radius;
@@ -17,7 +15,8 @@ public class Kolo {
     public void setSurface() {
         surface = Math.pow(radius, 2) * Math.PI;
     }
-    public double getSurface(){
+
+    public double getSurface() {
         setSurface();
         return surface;
     }

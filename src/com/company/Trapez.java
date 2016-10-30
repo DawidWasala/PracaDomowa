@@ -1,9 +1,7 @@
 package com.company;
 
 
-/**
- * Created by Dawid on 2016-10-29.
- */
+
 public class Trapez {
 
     private double sideA;
@@ -11,7 +9,7 @@ public class Trapez {
     private double surface;
     private double height;
 
-    public void getDimensions(){
+    public void getDimensions() {
         System.out.println("Wpisz pierwsza podstawe");
         sideA = Main.doubleScanner.nextDouble();
         System.out.println("Wpisz druga podstawe");
@@ -21,11 +19,13 @@ public class Trapez {
 
 
     }
-    private void setSurface(){
-        surface = ((sideA+sideB)*height)/2;
+
+    private void setSurface() {
+        surface = ((sideA + sideB) * height) / 2;
 
     }
-    public double getSurface(){
+
+    public double getSurface() {
         return surface;
     }
 }
