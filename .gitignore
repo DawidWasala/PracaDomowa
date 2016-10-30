@@ -13,3 +13,5 @@ hs_err_pid*
 .idea/
 untitled.iml
 pracaDomowa1.iml
+out/production/untitled/META-INF/MANIFEST.MF
+src/META-INF/MANIFEST.MF

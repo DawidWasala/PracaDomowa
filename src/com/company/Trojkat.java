@@ -26,6 +26,7 @@ public class Trojkat {
         sideA = Main.doubleScanner.nextDouble();
         System.out.println("Wpisz wysokosc");
         height = Main.doubleScanner.nextDouble();
+        surface = (sideA*height) / 2;
     }
     public void setSurfaceWithThreeSides(){
         System.out.println("Wpisz pierwszy bok");
