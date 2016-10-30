@@ -17,7 +17,7 @@ public class Main {
 
 
         for (int i = 0; i < 10; i++) {
-            System.out.println("wybierz dzialanie: kolo, prostokat, kwadrat, romb");
+            System.out.println("wybierz dzialanie: kolo, prostokat, kwadrat, romb, trapez, trojkat");
             if (i > 0) {
                 System.out.println("lub wpisz stop aby zakonczyc obliczenia");
             }
