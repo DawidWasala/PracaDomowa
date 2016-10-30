@@ -1,9 +1,7 @@
 package com.company;
 
 
-/**
- * Created by Dawid on 2016-10-29.
- */
+
 public class Trapez {
 
     private double sideA;
@@ -25,7 +23,9 @@ public class Trapez {
         surface = ((sideA+sideB)*height)/2;
 
     }
-    public double getSurface(){
+    public double getSurface()
+    {
+        setSurface();
         return surface;
     }
 }
