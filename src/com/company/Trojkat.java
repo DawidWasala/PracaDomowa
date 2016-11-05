@@ -38,6 +38,18 @@ public class Trojkat {
         surface = (Math.sqrt((sideA+sideB+sideC)*(sideA+sideB-sideC)*(sideA-sideB+sideC)*(-sideA+sideB+sideC)))/4;   // wzor Herona
     }
     public double getSurface(){
+
         return surface;
+    }
+    public void wheelInscirbed(){
+        if (Main.wheelInscribed < 2 * height /3){
+            Main.wheelInscribed = 2 * height / 3;
+        }
+    }
+    public void wheelDescribed(){
+        if (Main.wheelDescribed < height / 3){
+            Main.wheelDescribed = height / 3;
+        }
+
     }
 }

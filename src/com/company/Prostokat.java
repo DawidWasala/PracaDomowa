@@ -21,4 +21,24 @@ public class Prostokat {
         setSurface();
         return surface;
     }
+    public void wheelInscribed(){
+        if(sideA<sideB){
+            if(sideA/2 > Main.wheelInscribed){
+                Main.wheelInscribed = sideA/2;
+                Main.numberOfBiggestInscribedWheel= Main.i;
+            }
+
+        }else{
+            if(sideB/2 > Main.wheelInscribed){
+                Main.wheelInscribed = sideB/2;
+                Main.numberOfBiggestInscribedWheel= Main.i;
+            }
+        }
+    }
+    public void wheelDescribed(){
+        if(Math.sqrt((sideA*sideA)+(sideB*sideB)) > Main.wheelDescribed){
+            Main.wheelDescribed = Math.sqrt((sideA*sideA)+(sideB*sideB));
+            Main.numberOfBiggestDescribedWheel= Main.i;
+        }
+    }
 }

@@ -20,5 +20,15 @@ public class Kolo {
         setSurface();
         return surface;
     }
+    public void wheelInscribed(){
+        if(Main.wheelInscribed < radius){
+            Main.wheelInscribed = radius;
+        }
+    }
+    public void wheelDescribed(){
+        if(Main.wheelDescribed < radius){
+            Main.wheelDescribed = radius;
+        }
+    }
 
 }

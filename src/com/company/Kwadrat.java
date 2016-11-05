@@ -25,12 +25,28 @@ public class Kwadrat {
     private void setSurfaceWithSide(){
         System.out.println("Wpisz bok");
         surface = Math.pow(Main.doubleScanner.nextDouble(), 2);
+        diagonal = Math.sqrt(2)*side;
     }
     private void setSurfaceWithDiagonal(){
         System.out.println("Wpisz przekatna");
-        surface = (Math.pow(Main.doubleScanner.nextDouble(),2))/2;
+        diagonal = Main.doubleScanner.nextDouble();
+        surface = (Math.pow(diagonal,2))/2;
+        side = Math.sqrt(surface);
     }
     public double getSurface(){
+
         return surface;
+    }
+    public void wheelDescribed(){
+        if(diagonal/2 > Main.wheelDescribed){
+            Main.wheelDescribed = diagonal/2;
+            Main.numberOfBiggestDescribedWheel= Main.i;
+        }
+    }
+    public void wheelInscribed(){
+        if(side/2 > Main.wheelInscribed){
+            Main.wheelInscribed = side/2;
+            Main.numberOfBiggestInscribedWheel= Main.i;
+        }
     }
 }
